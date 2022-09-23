@@ -1,0 +1,9 @@
+.directory {
+  margin-top: 4rem;
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  gap: 2rem;
+}

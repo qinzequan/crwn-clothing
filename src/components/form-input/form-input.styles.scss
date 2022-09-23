@@ -1,0 +1,25 @@
+.form-input {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+
+  &__label {
+    pointer-events: none;
+    align-self: start;
+    transform: translate(1rem, 2.2rem) scale(1.2);
+    transition: all 0.2s;
+  }
+
+  &__input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: inherit;
+  }
+
+  &__input:focus + &__label,
+  &__label--input {
+    transform: translate(0.5rem, 0) scale(1);
+    font-weight: 700;
+  }
+}

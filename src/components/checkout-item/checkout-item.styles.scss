@@ -1,0 +1,11 @@
+.checkout-item {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+
+  font-size: 2rem;
+
+  &__img {
+    width: 90%;
+  }
+}

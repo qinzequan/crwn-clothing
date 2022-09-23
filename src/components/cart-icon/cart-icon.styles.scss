@@ -1,0 +1,18 @@
+.cart-icon {
+  border: none;
+  background-color: transparent;
+
+  position: relative;
+
+  &__icon {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  &__count {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+}
