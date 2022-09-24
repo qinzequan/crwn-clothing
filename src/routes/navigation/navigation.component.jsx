@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { ReactComponent as CrownLogo } from '../../assets/crown.svg';
 
-import { signOutUser } from '../../utils/firebase/firebase.utils';
 import CartIcon from '../../components/cart-icon/cart-icon.component';
 import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component';
 import { NavigationContainer, Nav, NavLink } from './navigation.style';

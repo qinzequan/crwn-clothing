@@ -8,8 +8,7 @@ import Directory from './components/directory/directory.component';
 import Authentication from './routes/authentication/authentication.component';
 import Checkout from './routes/checkout/checkout.component';
 import Shop from './routes/shop/shop.component';
-import { createUserDocumentFromAuth, onAuthStateChangedListener } from './utils/firebase/firebase.utils';
-import { checkUserSession, setCurrentUser } from './store/user/user.action';
+import { checkUserSession } from './store/user/user.action';
 
 function App() {
   const dispatch = useDispatch();
